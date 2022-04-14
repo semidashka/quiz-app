@@ -1,0 +1,19 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "A small quiz app to learn web technologies",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semidashka/quiz-app.git"
+  },
+  "author": "Daria Kuzmina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/semidashka/quiz-app/issues"
+  },
+  "homepage": "https://github.com/semidashka/quiz-app#readme"
+}
