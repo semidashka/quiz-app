@@ -1,3 +1,23 @@
-@import url("/design/frame.css");
-@import url("/design/button.css");
-@import url("/design/card.css");
+@import url("/design/frame/frame.css");
+@import url("/design/button/button.css");
+@import url("/design/card/card.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  color: var(--default-text-color);
+}
+
+body {
+  margin-bottom: 6rem;
+}
+
+:root {
+  --default-text-color: rgb(35, 32, 32);
+  --frame-color: light-blue;
+}
