@@ -1,6 +1,20 @@
-@import url("/design/frame/frame.css");
-@import url("/design/button/button.css");
-@import url("/design/card/card.css");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
+@import url('/design/frame/frame.css');
+@import url('/design/button/button.css');
+@import url('/design/card/card.css');
+
+:root {
+  --font-family: 'Comfortaa', sans-serif;
+  --default-text-color: rgb(35, 32, 32);
+
+  --frame-color: lightblue;
+  --background-color: rgb(213, 233, 213);
+  --card-color: var(--frame-color);
+  --button-answer-color: rgb(237, 193, 18);
+  --tag-color: rgb(145, 197, 215);
+
+  --boxshadow-grey: 0px 2px 11px rgba(25, 50, 81, 0.2);
+}
 
 *,
 *::before,
@@ -10,14 +24,11 @@
 
 html {
   font-size: 16px;
+  font-family: var(--font-family);
   color: var(--default-text-color);
 }
 
 body {
-  margin-bottom: 6rem;
-}
-
-:root {
-  --default-text-color: rgb(35, 32, 32);
-  --frame-color: light-blue;
+  margin: 4rem 0;
+  background-color: var(--background-color);
 }

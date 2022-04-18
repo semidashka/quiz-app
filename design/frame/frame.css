@@ -1,0 +1,22 @@
+header,
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: var(--frame-color);
+  text-align: center;
+}
+
+header {
+  top: 0;
+}
+
+nav {
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav img {
+  height: 3rem;
+  margin: 1rem;
+}
