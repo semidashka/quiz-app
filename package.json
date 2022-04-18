@@ -7,7 +7,7 @@
     "htmlhint": "htmlhint \"**/*.html\"",
     "stylelint": "stylelint \"**/*.css\"",
     "prettier": "prettier --write",
-    "eslint": "eslint *.js",
+    "eslint": "eslint \"**/*.js\"",
     "test": "npm run htmlhint && npm run stylelint && npm run eslint",
     "prepare": "husky install"
   },
