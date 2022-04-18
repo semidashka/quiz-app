@@ -1,0 +1,34 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "A small quiz app to learn web technologies",
+  "main": "index.html",
+  "scripts": {
+    "htmlhint": "htmlhint \"**/*.html\"",
+    "stylelint": "stylelint \"**/*.css\"",
+    "prettier": "prettier --write",
+    "eslint": "eslint \"**/*.js\"",
+    "test": "npm run htmlhint && npm run stylelint && npm run eslint",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semidashka/quiz-app.git"
+  },
+  "author": "Daria Kuzmina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/semidashka/quiz-app/issues"
+  },
+  "homepage": "https://github.com/semidashka/quiz-app#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "htmlhint": "^1.1.4",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.3.7",
+    "prettier": "^2.6.2",
+    "stylelint": "^14.6.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0"
+  }
+}
