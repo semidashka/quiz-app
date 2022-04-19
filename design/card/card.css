@@ -14,11 +14,14 @@
 }
 
 .card--bookmark {
-  width: 3rem;
+  width: 3.5rem;
   position: absolute;
   top: -0.2rem;
   right: 2rem;
+  background-color: transparent;
+  border: none;
 }
+
 .card--btn {
   display: block;
   margin: 1.5rem auto;

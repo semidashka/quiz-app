@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App | Home</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
+    <script src="/scripts/main.js" type="module" defer></script>
   </head>
   <body>
     <header>
@@ -15,11 +15,14 @@
     <main>
       <section class="questions">
         <article class="card">
-          <img
-            class="card--bookmark"
-            src="/assets/bookmark.svg"
-            alt="outline bookmark icon"
-          />
+          <button class="card--bookmark" data-js="card--bookmark">
+            <img src="./assets/bookmark.svg" alt="outline bookmark icon" />
+            <img
+              class="hidden"
+              src="./assets/bookmark-filled.svg"
+              alt="outline bookmark icon"
+            />
+          </button>
           <h2 class="card--title">Question</h2>
           <p class="card--text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
@@ -40,11 +43,14 @@
           </ul>
         </article>
         <article class="card">
-          <img
-            class="card--bookmark"
-            src="/assets/bookmark.svg"
-            alt="outline bookmark icon"
-          />
+          <button class="card--bookmark" data-js="card--bookmark">
+            <img src="./assets/bookmark.svg" alt="outline bookmark icon" />
+            <img
+              class="hidden"
+              src="./assets/bookmark-filled.svg"
+              alt="outline bookmark icon"
+            />
+          </button>
           <h2 class="card--title">Question</h2>
           <p class="card--text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
