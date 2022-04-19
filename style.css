@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
 @import url('/design/frame/frame.css');
-@import url('/design/button/button.css');
 @import url('/design/card/card.css');
 
 :root {
@@ -13,7 +12,7 @@
   --button-color: rgb(237, 193, 18);
   --tag-color: rgb(145, 197, 215);
 
-  --boxshadow-grey: 0px 2px 11px rgba(25, 50, 81, 0.2);
+  --boxshadow-grey: 0px 2px 5px rgba(25, 50, 81, 0.2);
 }
 
 *,
