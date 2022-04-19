@@ -1,0 +1,49 @@
+.card {
+  background-color: var(--card-color);
+  padding: 2rem;
+  width: 85%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: var(--boxshadow-grey);
+}
+
+.card--title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card--bookmark {
+  width: 3rem;
+  position: relative;
+  top: -2.2rem;
+  right: 2rem;
+}
+.card--btn {
+  display: block;
+  margin: 1.5rem auto;
+  font-family: inherit;
+  padding: 0.6rem 1rem 0.5rem;
+  background-color: var(--button-color);
+  border-radius: 6px;
+  border: 0;
+  box-shadow: var(--boxshadow-grey);
+  font-weight: bold;
+}
+
+.card--answer {
+  display: none;
+}
+
+.card--tags {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.5rem auto 0;
+}
+
+.card--tags li {
+  background-color: var(--tag-color);
+  padding: 0.2rem 0.7rem;
+  border-radius: 5px;
+  box-shadow: var(--boxshadow-grey);
+}
